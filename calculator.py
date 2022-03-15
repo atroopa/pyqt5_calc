@@ -58,6 +58,7 @@ class F(qtw.QWidget):
         btn_mult      = qtw.QPushButton("*",    clicked = lambda: self.func_press('*'))
         btn_dvid      = qtw.QPushButton("/",    clicked = lambda: self.func_press('/'))
         
+        
         # After making the buttons, we arrange them on the grid 
         # houses in the standard order of the calculator
         container.layout().addWidget(self.result_field,0,0,1,4)
